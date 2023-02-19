@@ -2,8 +2,8 @@ import serial
 import wave
 import time
 
-ser = serial.Serial('COM3', 9600) # change 'COM3' to the serial port of your Arduino
-audio_file = wave.open('audio.wav', 'rb')
+ser = serial.Serial('/dev/tty.usbmodem101', 9600) # change 'COM3' to the serial port of your Arduino
+audio_file = wave.open('audiomass-output.wav', 'rb')
 sample_rate = audio_file.getframerate()
 
 while True:
