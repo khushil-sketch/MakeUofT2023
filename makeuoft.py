@@ -2,7 +2,7 @@ import serial
 import wave
 import time
 
-ser = serial.Serial('/dev/tty.usbmodem1101', 9600) # change 'COM3' to the serial port of your Arduino
+ser = serial.Serial('/dev/tty.usbmodem101', 9600) # change to the serial port of your Arduino
 audio_file = wave.open('audiomass-output.wav', 'rb')
 sample_rate = audio_file.getframerate()
 
@@ -15,3 +15,11 @@ while True:
         ser.flush()
     delay = int(1000000 / sample_rate)
     time.sleep(delay / 1000000)
+
+
+
+
+
+
+
+
