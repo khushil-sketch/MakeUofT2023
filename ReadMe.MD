@@ -10,4 +10,4 @@ at a certain frequency that is proven scientifically to calm down people sufferi
 ## Check out our Website to learn more about the project!
 https://coyote-chimes-z2ce.squarespace.com/
 
-password (1234)
+(Password: 1234)
